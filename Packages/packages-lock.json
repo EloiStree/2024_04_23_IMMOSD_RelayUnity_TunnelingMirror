@@ -1,5 +1,72 @@
 {
   "dependencies": {
+    "be.eloistree.etoolboxbasicfont": {
+      "version": "https://github.com/EloiStree/2024_03_11_eToolbox_BasicFont.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "833398a559868d2bc1ab0a96bead155542b82b41"
+    },
+    "be.eloistree.etoolboxcolordrop": {
+      "version": "https://github.com/EloiStree/2024_03_11_eToolbox_ColorDrop.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "316098139c3ac6670b7192e3a7d4823bf4f2f1eb"
+    },
+    "be.eloistree.generaltoolbox": {
+      "version": "https://github.com/EloiStree/2021_10_03_EloiGeneralToolbox.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "04b2f9315998534a32b825655ed52fe08c5313d6"
+    },
+    "be.eloistree.generatestorersakey": {
+      "version": "https://github.com/EloiStree/2024_04_04_GenereteRsaKeyInUnity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e2da914064b7d2d8448e28fa8917393f5153dc95"
+    },
+    "be.eloistree.license": {
+      "version": "https://github.com/EloiStree/GeneralLicense.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "47d94896f2c8a34ccbe67e816cb273f3ddfdeab6"
+    },
+    "be.eloistree.quickgitutility": {
+      "version": "https://github.com/EloiStree/2019_07_21_QuickGitUtility.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "be.eloistree.license": "0.0.1"
+      },
+      "hash": "16a95c003c6d6033c0f7bdf7a7085cafb4779fd4"
+    },
+    "be.eloistree.unitypackagefacilitator": {
+      "version": "https://github.com/EloiStree/2019_07_21_UnityPackageFacilitator.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "be.eloistree.license": "0.0.1"
+      },
+      "hash": "acc9b240aa04120935d900bdf4f3407d57a94b71"
+    },
+    "be.eloistree.zhulistaticsingleton": {
+      "version": "https://github.com/EloiStree/2022_11_22_ZhuLiStaticSingleton.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "89564667f5e0a9611cc438548de002611a652460"
+    },
+    "com.endel.nativewebsocket": {
+      "version": "https://github.com/endel/NativeWebSocket.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c5101c07762251edc82caad9e8a39d51b1229c31"
+    },
     "com.unity.2d.animation": {
       "version": "9.1.0",
       "depth": 1,
