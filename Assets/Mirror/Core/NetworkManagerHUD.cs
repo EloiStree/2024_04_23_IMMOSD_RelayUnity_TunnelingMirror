@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Mirror
 {
-    /// <summary>Shows NetworkManager controls in a GUI at runtime.</summary>
+
     [DisallowMultipleComponent]
     [AddComponentMenu("Network/Network Manager HUD")]
     [RequireComponent(typeof(NetworkManager))]
@@ -21,14 +21,14 @@ namespace Mirror
 
         void OnGUI()
         {
-            // If this width is changed, also change offsetX in GUIConsole::OnGUI
+            
             int width = 300;
 
             GUILayout.BeginArea(new Rect(10 + offsetX, 40 + offsetY, width, 9999));
 
             if (!NetworkClient.isConnected && !NetworkServer.active)
                 StartButtons();
-            else
+            else 
                 StatusLabels();
 
             if (NetworkClient.isConnected && !NetworkClient.ready)
