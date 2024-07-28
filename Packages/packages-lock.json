@@ -19,14 +19,21 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "04b2f9315998534a32b825655ed52fe08c5313d6"
+      "hash": "374d6c1f69432411361482f0ab5273ed20d53788"
     },
     "be.eloistree.generatestorersakey": {
       "version": "https://github.com/EloiStree/2024_04_04_GenereteRsaKeyInUnity.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "e2da914064b7d2d8448e28fa8917393f5153dc95"
+      "hash": "7a7aefd5fbd44c6253ac1c425e7d5a009a67faea"
+    },
+    "be.eloistree.immomemoryfilemirrorrelayrsa": {
+      "version": "https://github.com/EloiStree/2024_04_23_IMMOSD_TunnelingMirrorRelayPackage.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "046dcd8a7fab383fc2c8258c3893a5b2791e4348"
     },
     "be.eloistree.license": {
       "version": "https://github.com/EloiStree/GeneralLicense.git",
@@ -34,6 +41,13 @@
       "source": "git",
       "dependencies": {},
       "hash": "47d94896f2c8a34ccbe67e816cb273f3ddfdeab6"
+    },
+    "be.eloistree.loadpublicrsakeyfromfolders": {
+      "version": "https://github.com/EloiStree/2024_04_26_LoadPublicRsaKeyGroupInProject.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ffde080dc9f4de2aac1a47f57938e3590344a571"
     },
     "be.eloistree.quickgitutility": {
       "version": "https://github.com/EloiStree/2019_07_21_QuickGitUtility.git",
@@ -81,7 +95,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.aseprite": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -162,7 +176,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.12",
+      "version": "1.8.13",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -207,7 +221,7 @@
         "com.unity.2d.spriteshape": "9.0.2",
         "com.unity.2d.tilemap": "1.0.0",
         "com.unity.2d.tilemap.extras": "3.1.2",
-        "com.unity.2d.aseprite": "1.1.1"
+        "com.unity.2d.aseprite": "1.1.2"
       }
     },
     "com.unity.ide.rider": {
@@ -267,7 +281,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "14.0.10",
+      "version": "14.0.11",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -278,23 +292,23 @@
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "14.0.10",
+      "version": "14.0.11",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.burst": "1.8.9",
-        "com.unity.render-pipelines.core": "14.0.10",
-        "com.unity.shadergraph": "14.0.10",
+        "com.unity.render-pipelines.core": "14.0.11",
+        "com.unity.shadergraph": "14.0.11",
         "com.unity.render-pipelines.universal-config": "14.0.9"
       }
     },
     "com.unity.render-pipelines.universal-config": {
-      "version": "14.0.9",
+      "version": "14.0.10",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "14.0.9"
+        "com.unity.render-pipelines.core": "14.0.10"
       }
     },
     "com.unity.searcher": {
@@ -317,7 +331,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.12.4",
+      "version": "1.12.5",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -328,11 +342,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.qos": {
-      "version": "1.2.1",
+      "version": "1.3.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.services.core": "1.4.0",
+        "com.unity.services.core": "1.12.4",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.0.2",
         "com.unity.services.authentication": "2.0.0",
@@ -359,11 +373,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "14.0.10",
+      "version": "14.0.11",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "14.0.10",
+        "com.unity.render-pipelines.core": "14.0.11",
         "com.unity.searcher": "4.9.2"
       }
     },
